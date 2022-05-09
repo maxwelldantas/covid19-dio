@@ -1,5 +1,7 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 import Api from '../../resources/api'
+import { ContainerStyled } from './style';
+import Board from '../components/Board'
 
 function Main() {
 
@@ -16,9 +18,12 @@ function Main() {
     }, [getCovidData, country])
 
     return (
-        <div>
-            Teste
-        </div>
+        <ContainerStyled>
+            <div className='mb-2'>
+
+            </div>
+            <Board data={data} />
+        </ContainerStyled>
     )
 }
 
