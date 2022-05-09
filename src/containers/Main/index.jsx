@@ -7,7 +7,7 @@ import Panel from './components/Panel'
 function Main() {
 
     const [data, setData] = useState({});
-    const [country, setCountry] = useState('Brazil')
+    const [country, setCountry] = useState('brazil')
     const updateAt = new Date().toLocaleString()
 
     const getCovidData = useCallback((country) => {
