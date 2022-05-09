@@ -18,7 +18,11 @@ function Panel({ updateAt, onChange, data, country, getCovidData }) {
         </MenuItem>
     )
 
-    const textCovid19 = `Pais: ${country}`
+    const textCovid19 = `Pais: ${country} - recuperados: ${recovered}`
+
+    const copyInfo = () => {
+        navigator.clipboard.writeText(textCovid19)
+    }
 
     const shareInfo = () => {
         navigator.share({
@@ -57,6 +61,7 @@ function Panel({ updateAt, onChange, data, country, getCovidData }) {
                         </Select>
                     </div>
                 </div>
+                {navigatorHasShare ? renderShareButton : renderCopyButton}
             </CardPanelContentStyled>
         </Card>
     )
