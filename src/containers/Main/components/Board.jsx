@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 import PropTypes from "prop-types";
-import { Grid, Skeleton } from "../../components"
+import { Grid, Skeleton } from "../../../components"
 import Card from "./Card";
 
 function Board({ data }) {
