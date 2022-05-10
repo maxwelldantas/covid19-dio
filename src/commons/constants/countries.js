@@ -5,31 +5,31 @@ import ItalyFlag from '../../assets/images/italy.png'
 import UsaFlag from '../../assets/images/usa.png'
 
 const COUNTRIES = [
-    {
-        label: 'Brasil',
-        value: 'brazil',
-        flag: BrazilFlag
-    },
-    {
-        label: 'Alemanha',
-        value: 'germany',
-        flag: GermanyFlag
-    },
-    {
-        label: 'China',
-        value: 'china',
-        flag: ChinaFlag
-    },
-    {
-        label: 'Estados Unidos',
-        value: 'usa',
-        flag: UsaFlag
-    },
-    {
-        label: 'Itália',
-        value: 'italy',
-        flag: ItalyFlag
-    }
+  {
+    label: 'Alemanha',
+    value: 'germany',
+    flag: GermanyFlag
+  },
+  {
+    label: 'Brasil',
+    value: 'brazil',
+    flag: BrazilFlag
+  },
+  {
+    label: 'China',
+    value: 'china',
+    flag: ChinaFlag
+  },
+  {
+    label: 'Estados Unidos',
+    value: 'usa',
+    flag: UsaFlag
+  },
+  {
+    label: 'Itália',
+    value: 'italy',
+    flag: ItalyFlag
+  }
 ]
 
 export default COUNTRIES

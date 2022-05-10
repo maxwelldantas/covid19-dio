@@ -1,18 +1,18 @@
-import { Card, CardContent } from "./card/Card"
-import Button from "./button/Button"
-import Grid from "./grid/Grid"
-import Typography from "./typography/Typography"
-import Skeleton from "./skeleton/Skeleton"
-import Select from "./select/Select"
-import MenuItem from "./menuitem/MenuItem"
+import { Card, CardContent } from './Card'
+import Button from './Button'
+import Grid from './Grid'
+import Typography from './Typography'
+import Skeleton from './Skeleton'
+import Select from './Select'
+import MenuItem from './MenuItem'
 
 export {
-    Button,
-    Card,
-    CardContent,
-    Grid,
-    Typography,
-    Skeleton,
-    Select,
-    MenuItem
+  Button,
+  Card,
+  CardContent,
+  Grid,
+  Typography,
+  Skeleton,
+  Select,
+  MenuItem
 }
